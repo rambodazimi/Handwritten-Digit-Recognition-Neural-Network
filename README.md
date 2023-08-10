@@ -22,9 +22,49 @@ Before using this code, ensure you have the following dependencies installed:
 - Python (3.x recommended)
 - TensorFlow
 - NumPy
+- OS
 
 You can install TensorFlow and NumPy using the following commands:
 
 ```bash
 pip install tensorflow
 pip install numpy
+
+
+## Dataset
+
+The dataset used in this script contains 5000 training examples of handwritten digits (0-9). Each training example is a 20x20 pixel grayscale image of the digit, with each pixel represented by a floating-point number indicating grayscale intensity.
+
+## Usage
+
+1. Clone this repository
+
+git clone https://github.com/rambodazimi/Handwritten-Digit-Recognition-Neural-Network.git
+
+2. Run the Python script
+
+python Multiclass Neural Network.py
+
+## Model Architecture
+
+The neural network model is defined as follows:
+
+- Input Layer (400 units)
+
+- Hidden Layer 1 (25 units, ReLU activation)
+
+- Hidden Layer 2 (15 units, ReLU activation)
+
+- Output Layer (10 units, linear activation)
+
+## Compilation and Training
+
+The model is compiled using the Adam optimizer and the sparse categorical cross-entropy loss function. It is trained on the training dataset for 70 epochs.
+
+## Making Predictions
+
+An example image of the digit "2" is used for prediction. The model predicts the digit using the softmax function to convert the output into a probability distribution.
+
+## Results
+
+The predicted digit is printed in the console output. Feel free to modify the code to test other images or enhance the model's performance.
