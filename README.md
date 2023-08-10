@@ -48,6 +48,9 @@ python Multiclass Neural Network.py
 
 ## Model Architecture
 
+![model architecture](https://i.ibb.co/0K0KBKM/C2-W2-Assigment-NN.png)
+
+
 The neural network model is defined as follows:
 
 - Input Layer (400 units)
