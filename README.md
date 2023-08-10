@@ -34,6 +34,9 @@ pip install numpy
 
 ## Dataset
 
+![model architecture](https://i.ibb.co/9tDyJ2n/Screenshot-2023-08-10-at-6-59-08-PM.png)
+
+
 The dataset used in this script contains 5000 training examples of handwritten digits (0-9). Each training example is a 20x20 pixel grayscale image of the digit, with each pixel represented by a floating-point number indicating grayscale intensity.
 
 ## Usage
